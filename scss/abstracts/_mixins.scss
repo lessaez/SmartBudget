@@ -1,0 +1,22 @@
+// Contenedor centrado (Teléfonos Móviles)
+@mixin container($max-width) {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+// Centrar horizontalmente con flex
+@mixin flex-center-x {
+    display: flex;
+    justify-content: center;
+}
+
+// Estilo de base de inputs
+@mixin input-base {
+    padding: 14px;
+    border-radius: $radius-md;
+    border: 2px solid $color-input-border;
+    background-color: $color-input-bg;
+    font-size: 16px;
+    outline: none;
+}
+
