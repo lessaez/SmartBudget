@@ -1,0 +1,11 @@
+/* Footer (BEM) */
+.footer {
+    background-color: #16b3a8;
+    padding: 22px 16px;
+    text-align: center;
+}
+
+.footer__text {
+    color: white;
+    font-size: 18px;
+}
