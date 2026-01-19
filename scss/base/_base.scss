@@ -5,3 +5,13 @@ body.page {
   display: flex;
   flex-direction: column;
 }
+
+// Box Model | Layout Base
+body.page {
+  line-height: 1.4;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

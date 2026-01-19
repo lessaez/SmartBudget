@@ -11,4 +11,49 @@ body.page {
   flex-direction: column;
 }
 
+body.page {
+  line-height: 1.4;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.main {
+  background-color: #7b4ad9;
+  flex: 1;
+  padding: 28px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.login {
+  width: 100%;
+  max-width: 420px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding: 48px 16px;
+  }
+  .login {
+    max-width: 520px;
+  }
+  .login__title {
+    font-size: 40px;
+  }
+  .login__input {
+    font-size: 18px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
