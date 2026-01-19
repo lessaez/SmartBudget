@@ -1,6 +1,20 @@
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
+@use "../abstracts" as *;
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  background-color: $color-navbar;
+  padding: 20px 16px;
+
+  &__container {
+    @include container($container-width);
+  }
+
+  &__title {
+    color: $color-white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
