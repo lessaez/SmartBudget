@@ -1,1 +1,12 @@
 @use "../abstracts" as *;
+
+.footer {
+  background-color: #1bb3a9;
+  padding: 16px;
+  text-align: center;
+
+&__text {
+    color: #ffffff;
+    font-size: 14px;
+  }
+}

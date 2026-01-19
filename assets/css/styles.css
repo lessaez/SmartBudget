@@ -12,7 +12,9 @@ body.page {
 }
 
 body.page {
-  line-height: 1.4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -24,7 +26,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: #ff8a1f;
+  background-color: #ff8c1a;
   padding: 20px 16px;
 }
 .navbar__container {
@@ -38,9 +40,9 @@ img {
 }
 
 .main {
-  background-color: #7b4ad9;
+  background-color: #7b4dd6;
   flex: 1;
-  padding: 28px 16px;
+  padding: 40px 16px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -59,6 +61,36 @@ img {
   .login__input {
     font-size: 18px;
   }
+}
+.main {
+  flex: 1;
+  background-color: #7b4dd6;
+  padding: 40px 16px;
+}
+
+.login__input.form-control {
+  background-color: #ffe6a1 !important;
+  border: 2px solid #ffcc66;
+  border-radius: 8px;
+}
+
+.login__btn.btn {
+  background-color: #ff3b86 !important;
+  border: none !important;
+  color: #fff !important;
+}
+.login__btn.btn:hover {
+  background-color: #e63276 !important;
+}
+
+.footer {
+  background-color: #1bb3a9;
+  padding: 16px;
+  text-align: center;
+}
+.footer__text {
+  color: #ffffff;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,9 +1,9 @@
 @use "../abstracts" as *;
 
 .main {
-  background-color: $color-main;
+  background-color: #7b4dd6;
   flex: 1;
-  padding: 28px 16px;
+  padding: 40px 16px;
   @include flex-center-x;
   align-items: flex-start;
 }
@@ -14,4 +14,26 @@
   .login { max-width: 520px; }
   .login__title { font-size: 40px; }
   .login__input { font-size: 18px; }
+}
+
+.main {
+  flex: 1;
+  background-color: #7b4dd6;
+  padding: 40px 16px;
+}
+
+.login__input.form-control {
+  background-color: #ffe6a1 !important;
+  border: 2px solid #ffcc66;
+  border-radius: 8px;
+}
+
+.login__btn.btn {
+  background-color: #ff3b86 !important;
+  border: none !important;
+  color: #fff !important;
+
+  &:hover {
+    background-color: #e63276 !important;
+  }
 }
